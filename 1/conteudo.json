@@ -1,0 +1,27 @@
+{
+  "titulo": "Curso de Confeitaria Artística",
+  "subTitulo": "Aprenda a criar bolos incríveis em apenas 3 dias!",
+  "descricao": "Transforme sua paixão por confeitaria em um negócio lucrativo com técnicas simples e práticas.",
+  "botaoPrincipal": "Quero me inscrever",
+  "sessaoSobre": {
+    "titulo": "Sobre o Curso",
+    "texto": "Este curso é ideal para iniciantes e apaixonados por confeitaria que querem aprender técnicas profissionais de bolos decorados e doces finos."
+  },
+  "sessaoInstrutora": {
+    "titulo": "Conheça a Chef Ísis",
+    "texto": "A Chef Ísis é especialista em confeitaria artística e já ajudou centenas de alunos a transformarem sua paixão em lucro."
+  },
+  "sessaoProvasSociais": {
+    "titulo": "O que dizem nossos alunos",
+    "depoimentos": [
+      "Aprendi muito rápido e já comecei a vender meus bolos!",
+      "As técnicas são fáceis de seguir e os resultados são incríveis.",
+      "Recomendo para todos que querem entrar no mundo da confeitaria!"
+    ]
+  },
+  "sessaoOferta": {
+    "titulo": "Oferta Especial",
+    "texto": "Inscreva-se hoje e garanta 20% de desconto. Vagas limitadas!"
+  }
+}
+

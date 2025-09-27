@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Curso de Confeitaria</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+  <!-- Header / Hero -->
+  <header class="bg-gradient-to-r from-pink-400 via-red-400 to-yellow-400 text-white text-center py-20">
+    <h1 id="titulo" class="text-4xl md:text-5xl font-bold mb-4"></h1>
+    <p id="subTitulo" class="text-xl md:text-2xl mb-6"></p>
+    <p id="descricao" class="max-w-xl mx-auto mb-8"></p>
+    <a id="botaoPrincipal" href="#" class="bg-white text-pink-500 font-bold px-8 py-4 rounded shadow-lg hover:scale-105 transform transition duration-300 inline-block">Botão</a>
+  </header>
+
+  <!-- Sessão Sobre -->
+  <section class="py-20 bg-white text-center">
+    <h2 id="sobreTitulo" class="text-3xl font-bold mb-4"></h2>
+    <p id="sobreTexto" class="max-w-2xl mx-auto"></p>
+  </section>
+
+  <!-- Sessão Instrutora -->
+  <section class="py-20 bg-gray-100 text-center">
+    <h2 id="instrutoraTitulo" class="text-3xl font-bold mb-4"></h2>
+    <p id="instrutoraTexto" class="max-w-2xl mx-auto"></p>
+  </section>
+
+  <!-- Sessão Provas Sociais -->
+  <section class="py-20 bg-white text-center">
+    <h2 id="provasTitulo" class="text-3xl font-bold mb-8"></h2>
+    <div id="depoimentos" class="flex flex-col md:flex-row justify-center gap-8 max-w-4xl mx-auto"></div>
+  </section>
+
+  <!-- Sessão Oferta -->
+  <section class="py-20 bg-yellow-100 text-center">
+    <h2 id="ofertaTitulo" class="text-3xl font-bold mb-4"></h2>
+    <p id="ofertaTexto" class="max-w-2xl mx-auto mb-6"></p>
+    <a href="#" class="bg-pink-500 text-white font-bold px-8 py-4 rounded shadow-lg hover:scale-105 transform transition duration-300 inline-block">Quero aproveitar</a>
+  </section>
+
+  <!-- Script para popular o conteúdo -->
+  <script src="./js/popula-conteudo.js"></script>
+</body>
+</html>
+
